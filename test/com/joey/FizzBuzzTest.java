@@ -13,4 +13,8 @@ public class FizzBuzzTest {
     public void test2() {
         assertEquals("Fizz", FizzBuzz.fizzbuzz(3));
     }
+    @Test
+    public void test3() {
+        assertEquals("Buzz", FizzBuzz.fizzbuzz(5));
+    }
 }

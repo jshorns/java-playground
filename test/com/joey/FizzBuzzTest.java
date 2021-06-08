@@ -6,15 +6,19 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class FizzBuzzTest {
     @Test
-    public void test1() {
+    public void testForNonDivisible() {
         assertEquals("1", FizzBuzz.fizzbuzz(1));
     }
     @Test
-    public void test2() {
-        assertEquals("Fizz", FizzBuzz.fizzbuzz(3));
+    public void testForDivisibleByThree() {
+        assertEquals("Fizz", FizzBuzz.fizzbuzz(9));
     }
     @Test
-    public void test3() {
-        assertEquals("Buzz", FizzBuzz.fizzbuzz(5));
+    public void testForDivisibleByFive() {
+        assertEquals("Buzz", FizzBuzz.fizzbuzz(10));
+    }
+    @Test
+    public void testForDivisibleByThreeAndFive() {
+        assertEquals("Fizzbuzz", FizzBuzz.fizzbuzz(15));
     }
 }

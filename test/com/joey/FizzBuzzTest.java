@@ -21,4 +21,8 @@ public class FizzBuzzTest {
     public void testForDivisibleByThreeAndFive() {
         assertEquals("Fizzbuzz", FizzBuzz.fizzbuzz(15));
     }
+    @Test
+    public void testForZero() {
+        assertEquals("0", FizzBuzz.fizzbuzz(0));
+    }
 }

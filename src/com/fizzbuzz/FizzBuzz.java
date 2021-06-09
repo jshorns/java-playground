@@ -1,4 +1,4 @@
-package com.joey;
+package com.fizzbuzz;
 
 public class FizzBuzz {
 

@@ -1,8 +1,6 @@
-package com.joey;
+package com.codewithmosh;
 
-import java.lang.reflect.Array;
 import java.text.NumberFormat;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
